@@ -1,7 +1,7 @@
 import react, { useState } from "react";
 import "../App.css";
 import Cardloader from "./cardloader";
-import Button from "../tempaltecont.js/button";
+import Button from "../tempaltecont/button";
 import Sidebar from "./sidebar";
 function Profile(props){
     const profbutarray=[

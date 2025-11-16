@@ -3,7 +3,7 @@ import React, { Children, cloneElement, useEffect, useLayoutEffect, useState } f
 import "./canvas.css";
 
 import { Rnd } from "react-rnd";
-import Button from "./tempaltecont.js/button";
+import Button from "./tempaltecont/button";
 import { useRef } from "react";
 import Toolbox from "./components/toolbox";
 import "./components/comp.css";

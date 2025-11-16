@@ -1,7 +1,7 @@
 import react from "react";
 import { useState,useRef } from "react";
 import "../App.css";
-import Button from "../tempaltecont.js/button";
+import Button from "../tempaltecont/button";
 function Toolbox({buttarray}){
 return (<>
 {buttarray.map((button,index)=>(

@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import Button from "../tempaltecont.js/button";
+import Button from "../tempaltecont/button";
 
 function Feedback(){
     const feedbutarray=[

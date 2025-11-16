@@ -27,7 +27,7 @@ function App() {
     {
       id:"sidbut2",
       text:"Landing pages",
-      icon:<i class="fi fi-rr-home" ></i>,
+      icon:<i className="fi fi-rr-home" ></i>,
       linkto:"/app",
       click:"",
      
@@ -38,20 +38,20 @@ function App() {
     }, {
       id:"sidbut4",
       text:"Blog page",
-      icon:<i class="fi fi-rr-signal-alt-2"></i>,
+      icon:<i className="fi fi-rr-signal-alt-2"></i>,
       linkto:"profile",
       click:""
 
     }, {
       id:"sidbut5",
       text:"Portfolio",
-      icon:<i class="fi fi-rr-boxes"></i>,
+      icon:<i className="fi fi-rr-boxes"></i>,
       linkto:"library",
       click:""
     }, {
       id:"sidbut6",
       text:"Project plan",
-      icon:<i class="fi fi-rr-paper-plane" ></i>,
+      icon:<i className="fi fi-rr-paper-plane" ></i>,
       linkto:"",
       hrefto:"",
       click:""
@@ -61,7 +61,7 @@ const butarray2=[
   {
       id:"sidbut7",
       text:"User feedback",
-      icon:<i class="fi fi-rr-star"></i>,
+      icon:<i className="fi fi-rr-star"></i>,
       linkto:"feedback",
       click:"",
     
@@ -70,7 +70,7 @@ const butarray2=[
     {
       id:"sidbut8",
       text:"Site settings",
-      icon:<i class="fi fi-rr-settings" ></i>,
+      icon:<i className="fi fi-rr-settings" ></i>,
       linkto:"settings",
       click:"",
      
@@ -79,7 +79,7 @@ const butarray2=[
    {
       id:"sidbut97",
       text:"Logout",
-      icon:<i class="fi fi-rr-sign-out-alt" ></i>,
+      icon:<i className="fi fi-rr-sign-out-alt" ></i>,
       linkto:"logout",
       click:""
     },
@@ -94,7 +94,7 @@ function initcanvas(e){
    <>
    <ScrollToTop/>
    <Navbar/>
-   <button className='togglebut3'  onClick={togglesidebar}>{isopen?<i class="fi fi-rr-angle-small-left"></i>:<i class="fi fi-rr-angle-small-right"></i>}</button>
+   <button className='togglebut3'  onClick={togglesidebar}>{isopen?<i className="fi fi-rr-angle-small-left"></i>:<i className="fi fi-rr-angle-small-right"></i>}</button>
 
    <div className='maincontainerpar'>
    <Sidebar butarray={propbutarray} butarray2={butarray2} isopen={isopen} setselproject={setselproject} opentoggle={opentoggle}/>
@@ -111,8 +111,8 @@ function initcanvas(e){
 
 <div className='se'>
   <h1>What type of web page are you looking for?</h1>
-  <h2><h3 ><i class="fi fi-rr-badge-check"></i></h3>Portfolio page</h2><h2><h3><i class="fi fi-rr-badge-check"></i></h3>Landing page</h2><h2><h3 ><i class="fi fi-rr-badge-check"></i></h3>Blog / article page</h2><h2><h3 ><i class="fi fi-rr-badge-check"></i></h3>Data collection page</h2></div>
-<p>Generate wireframe or select a template <i class="fi fi-rr-magic-wand"></i></p>
+  <h2><h3 ><i className="fi fi-rr-badge-check"></i></h3>Portfolio page</h2><h2><h3><i className="fi fi-rr-badge-check"></i></h3>Landing page</h2><h2><h3 ><i className="fi fi-rr-badge-check"></i></h3>Blog / article page</h2><h2><h3 ><i className="fi fi-rr-badge-check"></i></h3>Data collection page</h2></div>
+<p>Generate wireframe or select a template <i className="fi fi-rr-magic-wand"></i></p>
 
 
 
