@@ -1,0 +1,220 @@
+
+button{
+    font-family:Lexend;
+}
+.mainlanddiv2{
+    width:100%;
+    min-height: 100vh;
+    display:flex;
+flex-wrap: wrap;
+align-items: center;
+gap:20px;
+justify-content: space-evenly;
+
+}.h1{
+    font-family: quicksand;
+}
+.mainlanddiv2 video{
+    width:70%;
+    min-width: 350px;
+    height:70%;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    margin-top: -100px;
+}.mainlanddiv2 h1{
+    width:100%;
+    font-family: questrial;
+    text-align: center;
+    height:50px;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 30px;
+   
+}.vdocont{
+    width:20%;
+    min-width: 350px;
+    height:70%;
+    max-height: 520px;
+    bordeR:3px solid rgb(218, 218, 218);
+    border-radius: 20px;
+    overflow-y: auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -100px;
+overflow-x: hidden;
+
+    scrollbar-width: thin;
+padding-bottom: 10px;
+
+  
+}.vdo{
+    width:95%;
+    height:120px;
+    border:2px solid rgb(221, 221, 221);
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+margin-top: 10px;
+    border-radius: 20px;
+}.vdo div{
+    height:90%;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    border-radius: 20px;
+}.vdo div:nth-child(1){
+    width:50%;
+}.vdo div:nth-child(2){
+    width:40%
+}
+.vb{
+    font-size: 20px;
+    color:rgb(115, 115, 115);
+    align-self: flex-start;
+   font-family: Lexend
+}.vdo div p{
+    font-size: 14px;
+    font-family: lexend;
+    color:black;
+    height:50px;
+}.vdo div button{
+    align-self:flex-start;
+    margin-bottom: 0px;
+    display:flex;
+    font-size: 12px;
+    
+       align-items: center;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    border:2px solid black;
+    padding:6px;
+    width:100px;
+    justify-content: center;
+}.vdo div button i{
+    margin-left: 10px;
+
+}.herosection{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    gap:20px;
+    width:96%;
+    min-height: 100vh;
+
+}.j1{
+    font-size: 90px;
+   
+}.herosection div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.herosection div:nth-child(2){
+    width:98%;
+    max-width: 450px;
+    height:60vh;
+   border:3px solid black;
+    border-radius: 30px;
+
+}
+.herosection div:nth-child(3){
+    width:98%;
+    max-width: 700px;
+    height:60vh;
+    background-color: rgba(255, 213, 0, 0.855);
+    border-radius: 30px;
+   border:3px solid black;
+
+}.herosection div:nth-child(4){
+    width:98%;
+    max-width: 1150px;
+    height:60vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+flex-wrap: wrap;
+border:3px solid black;
+
+}.j2{
+    width:94%;
+    height:48%;
+    margin-top: 10px;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+
+    border-radius: 5px;
+ 
+}.g2{
+    font-size: 25px;
+    font-family: Quicksand;
+    font-weight: 900;
+  
+    margin:20px;
+}.g3{width:100px;height:100px;
+}
+.j4{
+     width:94%;
+    height:60%;
+      background-size: cover;
+          background-image: url("https://thegreenlms.com/wp-content/uploads/2022/08/Easy-Course-Creation-1.png");
+
+    background-position:top;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+  
+    margin-top: 10px;
+  
+}.g6{
+    margin:20px;
+font-family: quicksand;
+    font-weight: 900;
+    font-size: 25px;
+
+}.g4{
+    padding:15px;
+    width:260px;
+    font-size: 15px;
+    background-color: black;
+    align-self: flex-end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color:white;
+    border-radius: 50px;
+    font-family: quicksand;
+    font-weight: 900;
+}.h8{
+    background-color: transparent;
+}.h8 h1{
+    font-size: 40px;
+    font-family: quicksand;
+}.j15{
+    width:98%;
+    height:90%;
+    max-width: 600px;
+    background-image: url("/src/assets/mnimg3.png");
+    background-position: center;
+    background-size: contain;
+    border: 2px solid rgb(90, 87, 87);
+    border-radius: 30px;
+
+
+}.g14 {
+padding:15px;
+    width:260px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    align-self: flex-end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color:rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    font-family: quicksand;
+    font-weight: 900;
+}.g16{
+    color:black;
+}
